@@ -1,0 +1,42 @@
+.infoCartDesign {
+    border: 2px solid rgb(192, 192, 192);
+    position: relative;
+    height: 650px;
+    background-color: white;
+    box-shadow: 2px 2px 10px #999797;
+    border-radius: 5px;
+}
+
+.infoCartDesign h2,
+p,
+h3 {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.infoCartDesign img {
+    width: 400px;
+    object-fit: contain;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.btn-1 {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-left: 0px;
+    background: linear-gradient(to right, pink, tomato);
+    color: white;
+    border: none;
+    padding: 10px 0px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:575px) {
+    .infoCartDesign img {
+        width: 270px;
+        object-fit: contain;
+    }
+}

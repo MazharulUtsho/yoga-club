@@ -1,0 +1,156 @@
+.cart-image {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.cart-container {
+    padding: 15px 20px;
+}
+
+.name-info {
+    display: flex;
+    align-items: center;
+}
+
+.names-info h2 {
+    color: #5d5d5d;
+    margin-left: 10px;
+}
+
+.names-info p {
+    color: #5d5d5d;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.personal-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    background-color: darkslateblue;
+    padding-top: -10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.weight p {
+    margin-top: -10px;
+    color: white;
+}
+
+.height p {
+    margin-top: -10px;
+    color: white;
+}
+
+.age p {
+    margin-top: -10px;
+    color: white;
+}
+
+.weight h3 {
+    color: white;
+}
+
+.height h3 {
+    color: white;
+}
+
+.age h3 {
+    color: white;
+}
+
+.break-info {
+    margin-top: 30px;
+}
+
+.break-info h2 {
+    color: #5d5d5d;
+}
+
+.break-container {
+    margin-top: 10px;
+    background-color: darkslateblue;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    height: 60px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.break-container span:hover {
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.exercise-info {
+    margin-top: 40px;
+}
+
+.yoga-time {
+    background-color: rgb(240, 238, 238);
+    margin-top: 10px;
+    padding-top: -10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+
+.yoga-time span {
+    margin-left: 130px;
+}
+
+.break-time {
+    background-color: rgb(240, 238, 238);
+    margin-top: 20px;
+    padding-top: -10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+
+.break-time span {
+    margin-left: 125px;
+}
+
+.btn-2 {
+    margin-top: 50px;
+    width: 100%;
+    padding: 15px 0px;
+    color: white;
+    background-color: darkslateblue;
+    border: none;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width:575px) {
+    .cart-container {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .names-info h2 {
+        font-size: 20px;
+    }
+
+    .name-info {
+        display: flex;
+        align-items: center;
+    }
+
+    .yoga-time h3 {
+        font-size: 16px;
+    }
+
+    .break-time h3 {
+        font-size: 16px;
+    }
+}
